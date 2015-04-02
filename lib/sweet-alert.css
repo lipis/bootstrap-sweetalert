@@ -562,3 +562,7 @@
 .sweet-alert button::-moz-focus-inner {
   border: 0;
 }
+
+.sweet-alert .lead.text-muted{
+  word-break:break-all;
+}

@@ -177,6 +177,24 @@ swal({
         </div>
       </div>
     </div>
+
+      <h4>An HTML message</h4>
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <p><button class="btn btn-primary sweet-15" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'Lipis']);">Try It</button></p>
+        </div>
+        <div class="col-sm-10">
+          <pre>
+swal({
+  title: "Sweet HTML!",
+  text: "Here's a &lt;b&gt;bold&lt;/b&gt; and &lt;span style='color:orange;'&gt;colorful&lt;/span&gt; message.",
+  html: true
+});
+</pre>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <ul class="links">
         <li><a href="http://lip.is" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'Lipis']);">Lipis</a></li>
@@ -299,7 +317,17 @@ swal({
           confirmButtonText: 'Danger!'
         });
       };
-    </script>
+
+      document.querySelector('.sweet-15').onclick = function(){
+		swal({
+		  title: "Sweet HTML!",
+		  text: "Here's a <b>bold</b> and <span style='color:orange;'>colorful</span> message.",
+		  html: true
+		});
+		
+	  };
+
+	  </script>
     <script>
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
     </script>

@@ -120,12 +120,10 @@ body.stop-scrolling {
         border-radius: 2px;
 
         &.sa-left {
-          -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
           left: 17px;
         }
         &.sa-right {
-          -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
           right: 16px;
         }
@@ -190,28 +188,23 @@ body.stop-scrolling {
         width: 60px;
         height: 120px;
         background: @body-bg;
-        -webkit-transform: rotate(45deg);
-                transform: rotate(45deg);
+        transform: rotate(45deg);
       }
       &::before {
         border-radius: 120px 0 0 120px;
         top: -7px;
         left: -33px;
 
-        -webkit-transform: rotate(-45deg);
-                transform: rotate(-45deg);
-        -webkit-transform-origin: 60px 60px;
-                transform-origin: 60px 60px;
+        transform: rotate(-45deg);
+        transform-origin: 60px 60px;
       }
       &::after {
         border-radius: 0 120px 120px 0;
         top: -11px;
         left: 30px;
 
-        -webkit-transform: rotate(-45deg);
-                transform: rotate(-45deg);
-        -webkit-transform-origin: 0px 60px;
-                transform-origin: 0px 60px;
+        transform: rotate(-45deg);
+        transform-origin: 0px 60px;
       }
 
       .sa-placeholder { // Ring
@@ -237,8 +230,7 @@ body.stop-scrolling {
         top: 8px;
         z-index: 1;
 
-        -webkit-transform: rotate(-45deg);
-                transform: rotate(-45deg);
+        transform: rotate(-45deg);
       }
 
       .sa-line {
@@ -256,8 +248,7 @@ body.stop-scrolling {
           left: 14px;
           top: 46px;
 
-          -webkit-transform: rotate(45deg);
-                  transform: rotate(45deg);
+          transform: rotate(45deg);
         }
         &.sa-long {
           width: 47px;
@@ -265,8 +256,7 @@ body.stop-scrolling {
           right: 8px;
           top: 38px;
 
-          -webkit-transform: rotate(-45deg);
-                  transform: rotate(-45deg);
+          transform: rotate(-45deg);
         }
       }
     }

@@ -9,8 +9,7 @@
     "Alessandro Chitolina <alekitto@gmail.com>"
   ],
   "scripts": {
-    "install": "grunt compile",
-    "pretest": "bower install",
+    "pretest": "bower install && grunt compile",
     "test": "grunt test"
   },
   "license": "MIT",

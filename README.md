@@ -12,7 +12,7 @@ An awesome _replacement_ for JavaScript's `alert()` made for Bootstrap.
 ## Usage
 
 On how to use these alerts, read the docs from the original
-[SweetAlert](http://tristanedwards.me/sweetalert) project.
+[SweetAlert](http://t4t5.github.io/sweetalert) project.
 
 The main difference here is that instead of using the `confirmButtonColor` you
 should use the `confirmButtonClass`. It can take any of the default Bootstrap
